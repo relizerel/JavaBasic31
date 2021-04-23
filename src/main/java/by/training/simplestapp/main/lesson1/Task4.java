@@ -1,5 +1,7 @@
 package by.training.simplestapp.main.lesson1;
 
+import static java.lang.Math.*;
+
 public class Task4 {
     public static void main(String[] args) {
         int cathetus1 = 4;
@@ -10,7 +12,7 @@ public class Task4 {
     }
 
     private double hypotenuseLength(int cathetus1, int cathetus2){
-        return Math.sqrt(Math.pow(cathetus1, 2) + Math.pow(cathetus2, 2));
+        return sqrt(pow(cathetus1, 2) + pow(cathetus2, 2));
     }
 
     private double areaTriangle(int cathetus1, int cathetus2){
