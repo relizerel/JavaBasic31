@@ -32,7 +32,6 @@ public class Task7 {
 
     private double functionBVar2(int a, int b, int c, int d){
         //a/c*b/d-(ab-c)/cd == abcd - abcd + c^2d = c^2d
-        return (c * c) * d;
-        //return (pow(c, 2) * d);
+        return (pow(c, 2) * d);
     }
 }
